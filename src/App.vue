@@ -1,17 +1,17 @@
 <script>
 // importo app title
-import apptitle from './components/AppTitle.vue';
+import AppTitle from './components/AppTitle.vue';
 // abilito l'utilizzo
 export default {
   components: {
-    apptitle
+    AppTitle
   }
 }
 </script>
 
 <template>
   <header>
-    <apptitle />
+    <AppTitle />
   </header>
   <main>
 
